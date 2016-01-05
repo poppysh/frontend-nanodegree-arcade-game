@@ -1,6 +1,4 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this rubric: https://www.udacity.com/course/viewer#!/c-ud015/l-3072058665/m-3072588797
-
-for self-checking their submission.
+Use the up, down, left and right keys to navigate your player to the water at the top of the screen without being hit by a bug. If you are hit by a bug you will be reset to the bottom of the screen.
