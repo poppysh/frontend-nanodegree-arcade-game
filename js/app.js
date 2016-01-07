@@ -59,26 +59,26 @@ Player.prototype.handleInput = function(keys) {
         case 'left':
         if(this.x>50){
             this.x = this.x - 50;
-            break;
         }
+            break;
 
         case 'right':
         if(this.x<400){
             this.x = this.x + 50;
-            break;
         }
+            break;
 
         case 'up':
         if(this.y>20){
             this.y = this.y - 50;
-            break;
         }
+            break;
 
         case 'down':
         if(this.y<400){
             this.y = this.y + 50;
-            break;
         }
+            break;
     }
 };
 
