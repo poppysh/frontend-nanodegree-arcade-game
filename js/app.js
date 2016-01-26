@@ -48,10 +48,10 @@ var Player = function(x,y) {
 
 Player.prototype.update = function(dt) {
     this.checkCollisions();
-
-    if (this.y >= 50) {
-        console.log('Winner!');
-    }
+    if (this.y <= 20) {
+    console.log('You Win!');
+    this.resetPlayer();
+  }
 };
 
 Player.prototype.render = function() {
@@ -86,13 +86,13 @@ Player.prototype.handleInput = function(keys) {
     }
 };
 
-Player.prototype.checkCollisions = function () {
+Player.prototype.checkCollisions = function() {
     for(var i=0; i < allEnemies.length; i++) {
         if (this.x < allEnemies[i].x + 50 && 
             this.x + 50 > allEnemies[i].x && 
             this.y < allEnemies[i].y + 50 && 
             this.y + 50 > allEnemies[i].y) {
-            console.log("fail");
+            console.log("try again");
             this.resetPlayer();
             break;
         }    
