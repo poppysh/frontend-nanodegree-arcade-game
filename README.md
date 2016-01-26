@@ -5,7 +5,7 @@ HOW TO PLAY
 
 Open the index.html file in your favorite browser.
 
-The player will be at the bottom of the screen. Your objective is to reach the water at the top of the screen without getting hit by any of the bugs. To accomplish this, use the up, down, left and right arrow keys to navigate your player. If you are hit by a bug you will be reset to the bottom of the screen. When you reach the water Winner! will display in the Console Log.
+The player will be at the bottom of the screen. Your objective is to reach the water at the top of the screen without getting hit by any of the bugs. To accomplish this, use the up, down, left and right arrow keys to navigate your player. If you are hit by a bug you will be reset to the bottom of the screen. When you reach the water the player will reset to the starting position and You Win! will display in the Console Log.
 
 RESOURCES
 
